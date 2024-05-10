@@ -1,0 +1,65 @@
+/* 
+(xs)mobile: < 575px
+(small) mobile landscape & tablet: 576 px < 767 px
+(md) large tablet & small laptop: 768 px < 991 px
+(lg) desktop & medium size laptop: 992 px < 1199 px
+(xl) desktop & laptop: 1200 px < 1399 px
+(xxl) large: > 1400 px
+*/
+@media (max-width:575px) {
+    .ph_image {
+        display: none;
+    }
+    .height {
+        text-align: center;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-link {
+        margin: 10px 0;
+        display: inline-block;
+    }
+    .feature_content {
+        margin-bottom: 40px;
+    }
+    .phone {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+    .heading h1 {
+        text-align: center;
+    }
+    .heading h5 {
+        text-align: center;
+    }
+    .details .heading span {
+        margin-left: auto;
+    }
+    p {
+        text-align: center;
+    }
+    .details ul {
+        width: 30%;
+        margin: auto;
+    }
+    .customize_section {
+        text-align: center;
+    }
+    .customize_section .heading span {
+        margin-left: auto;
+    }
+    .price_table {
+        margin-bottom: 30px;
+    }
+    .form {
+        width: 80%;
+    }
+    .contact_section {
+        padding-bottom: 430px;
+    }
+    .text-end {
+        margin-top: 15px;
+    }
+}
